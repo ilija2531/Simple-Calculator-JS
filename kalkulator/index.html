@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1>Matematicki Kalkulator</h1>
+    <br><br>
+    <div id="kalk">
+    <label id="prvbr" for="prvbroj" >Vnesi go prviot broj:</label>
+    <br><br>
+    <input type="text" id="prvbroj" >
+    <br><br>
+    <label id="vtorbr" for="vtorbroj">Vnesi go vtoriot broj:</label>
+    <br><br>
+    <input type="text" id="vtorbroj">
+    <br><br>    
+    <br><br>
+    <label id="rez"></label>
+    </div>
+    <br><br>
+    <br><br>
+    <label id="op">Odberi koja matematicka operacija ke ja koristis za presmetka:</label>
+    <br><br>
+    <div id="kalk2">
+    <label id="sob" for="sobiranje">Sobiranje</label>
+    <input type="radio" id="sobiranje" name="ope">
+    <br><br>
+    <label id="odz" for="odzemanje" >Odzemanje</label>
+    <input type="radio" id="odzemanje" name="ope">
+    <br><br>
+    <label id="mno" for="mnozenje">Mnozhenje</label>
+    <input type="radio" id="mnozenje" name="ope">
+    <br><br>
+    <label id="del" for="delenje">Delenje</label>
+    <input type="radio" id="delenje" name="ope">
+    </div>
+    <br><br>
+    <button type="submit" id="presmetaj">Presmetaj</button>
+    <script src="script.js"></script>
+    
+</body>
+</html>
